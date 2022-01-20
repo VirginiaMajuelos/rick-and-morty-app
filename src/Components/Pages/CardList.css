@@ -1,0 +1,24 @@
+.card-item {
+  padding: 10px 0;
+  width: 300px;
+  margin: 30px;
+  font-size: 25px;
+  color: black;
+  font-weight: bold;
+  line-height: 40px;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 1px 1px 0px 2px rgba (0, 0, 0, 0.3);
+  background: rgb(80, 233, 105);
+}
+.card-item:hover {
+  transform: scale(1.1);
+  transition: transform 0.2s;
+}
+
+.box {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: center;
+}

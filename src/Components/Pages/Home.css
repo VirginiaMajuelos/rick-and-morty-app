@@ -1,0 +1,36 @@
+.container-home {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.titles {
+  font-size: 60px;
+  text-decoration: underline;
+  color: white;
+}
+
+.titles-h2 {
+  font-size: 30px;
+  color: white;
+}
+
+.img-rick {
+  width: 15%;
+}
+
+.button-home {
+  justify-content: center;
+  text-decoration: none;
+  padding: 10px 10px;
+  margin: 30px;
+  font-size: 18px;
+  height: 50px;
+  width: 200px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 1px 1px 0px 2px rgba (0, 0, 0, 0.3);
+  background: rgb(80, 233, 105);
+}
